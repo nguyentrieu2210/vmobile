@@ -23,8 +23,7 @@
 					<div class="panel-body">
 						<div class="bootstrap-table">
 							<div class="table-responsive">
-
-								<a href="processed.html" class="btn btn-success">Đơn đã xử lý</a>
+							<a href="/admin/order/processed" class="btn btn-success">Đơn đã xử lý</a>
 								<table class="table table-bordered" style="margin-top:20px;">
 									<thead>
 										<tr class="bg-primary">
@@ -37,17 +36,18 @@
 										</tr>
 									</thead>
 									<tbody>
+										@foreach(var item in ViewBag.orders){
 										<tr>
-											<td>1</td>
-											<td>Nguyễn Thế Phúc</td>
-											<td>0356653300</td>
-											<td>Thường tín</td>
+											<td>@item.Id</td>
+											<td>@item.Name</td>
+											<td>@item.Phone</td>
+											<td>@item.Address</td>
 											<td>
-												<a href="/admin/order/detail" class="btn btn-warning"><i class="fa fa-pencil" aria-hidden="true"></i>Xử lý</a>
-
+												
+												<a href="/admin/order/detail/@item.Id" class="btn btn-warning"><i class="far fa-info-square" aria-hidden="true"></i>Chi tiết</a>
 											</td>
 										</tr>
-
+										}
 									</tbody>
 								</table>
 							</div>

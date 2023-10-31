@@ -17,8 +17,15 @@
 		<!--/.row-->
 		<div class="row">
 			<div class="col-xs-12 col-md-12 col-lg-12">
-
-				<div class="panel panel-primary">
+			@if (ViewBag.alert != null)
+			{
+				<div class="alert bg-success" role="alert">
+									<svg class="glyph stroked checkmark">
+										<use xlink:href="#stroked-checkmark"></use>
+									</svg>Đã thêm thành công<a href="#" class="pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+				</div>
+			}
+			<div class="panel panel-primary">
 					<div class="panel-heading">Danh sách đơn đặt hàng đã xử lý</div>
 					<div class="panel-body">
 						<div class="bootstrap-table">
@@ -36,22 +43,16 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Nguyễn văn An</td>
-                                            <td>Lu@gmail.com</td>
-                                            <td>015232412</td>
-                                            <td>Bắc ninh</td>
-                                            <td>2018-12-06 12:17:17</td>
-                                        </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Nguyễn thế phúc</td>
-                                            <td>admin@gmail.com</td>
-                                            <td>0906013526</td>
-                                            <td>Thường tín , hà nội</td>
-                                            <td>2018-12-06 02:05:30</td>                                                                                
-                                        </tr>
+										@foreach(var item in ViewBag.orders){
+											<tr>
+												<td>@item.Id</td>
+												<td>@item.Name</td>
+												<td>@item.Email</td>
+												<td>@item.Phone</td>
+												<td>@item.Address</td>
+												<td>@item.UpdatedAt</td>
+											</tr>
+										}
                                     </tbody>
                                 </table>
 							</div>

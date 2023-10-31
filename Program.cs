@@ -1,6 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using vphone.Data;
 using vphone.Models;
+using Microsoft.Extensions.DependencyInjection;
+using Autofac.Core;
+using Microsoft.AspNetCore.Identity;
+using vphone.Middleware;
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,10 +41,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
+
 
 app.UseAuthorization();
 
-app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

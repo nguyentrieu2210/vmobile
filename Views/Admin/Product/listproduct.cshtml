@@ -5,7 +5,7 @@
     ViewData["Title"] = "Quản lý sản phẩm";
     Layout = "~/Views/Admin/Shared/AdminLayout.cshtml";
 }
-@model IEnumerable<Product>
+
 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">
 			<ol class="breadcrumb">
@@ -32,14 +32,16 @@
 					<div class="panel-body">
 						<div class="bootstrap-table">
 							<div class="table-responsive">
+								@if(ViewBag.alert != null) {
 								<div class="alert bg-success" role="alert">
 									<svg class="glyph stroked checkmark">
 										<use xlink:href="#stroked-checkmark"></use>
-									</svg>Đã thêm thành công<a href="#" class="pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+									</svg>@ViewBag.alert<a href="#" class="pull-right"><span class="glyphicon glyphicon-remove"></span></a>
 								</div>
+								}
 								<a href="/admin/product/add" class="btn btn-primary">Thêm sản phẩm</a>
 								<table class="table table-bordered" style="margin-top:20px;">
-
+									
 									<thead>
 										<tr class="bg-primary">
 											<th class="text-center">ID</th>
@@ -64,16 +66,16 @@
 											</td>
 											<td class="text-center">@product.Price VND</td>
 											<td class="text-center">
-												<a class="btn btn-success" href="#" role="button">
+												
 													@if (product.IsStock)
 													{
-														<span>Còn hàng</span>
+													<a class="btn btn-success" href="#" role="button"><span>Còn hàng</span></a>
 													}
 													else
 													{
-														<span>Hết hàng</span>
+													<a class="btn btn-danger" href="#" role="button"><span>Hết hàng</span></a>
 													}
-												</a>
+												
 											</td>
 											<td class="text-center">@product.Cat.Title</td>
 											<td class="text-center">
@@ -85,15 +87,45 @@
 
 									</tbody>
 								</table>
-								<div align='right'>
-									<ul class="pagination">
-										<li class="page-item"><a class="page-link" href="#">Trở lại</a></li>
-										<li class="page-item"><a class="page-link" href="#">1</a></li>
-										<li class="page-item"><a class="page-link" href="#">2</a></li>
-										<li class="page-item"><a class="page-link" href="#">3</a></li>
-										<li class="page-item"><a class="page-link" href="#">tiếp theo</a></li>
-									</ul>
-								</div>
+								<!--	End List Product	-->
+                @{
+                    var PreviousPage = Model.PageNumber - 1;
+                    var NextPage = Model.PageNumber + 1;
+                    var step = 1;
+
+                }
+                <div id="pagination">
+                    <ul class="pagination">
+                        @if (Model.HasPreviousPage)
+                        {
+                            <li class="page-item"><a class="page-link" href="/admin/product/@PreviousPage">Trang trước</a></li>
+                        }
+                        @if (Model.PageCount != 1)
+                        {
+										<li class="page-item"><a class="page-link" href="/admin/product/1">1</a></li>
+									}
+                        @if (Model.PageNumber - step >2 && Model.PageNumber !=2)
+                        {
+                        <li class="page-item"><a class="page-link">...</a></li>
+                        }
+                        @for (int i = (Model.PageNumber == 1 ? 1 + step : (Model.PageNumber - step < 2 ? Model.PageNumber : Model.PageNumber - step)); i <= (Model.PageNumber == Model.PageCount ? Model.PageCount-1 : (Model.PageNumber + step>=Model.PageCount?Model.PageNumber:Model.PageNumber+step)); i = i + step)
+                        {
+
+										<li class="page-item"><a class="page-link" href="/admin/product/@i">@i</a></li>
+
+                        }
+                        @if (Model.PageNumber + step < Model.PageCount-1 && Model.PageNumber != Model.PageCount-1 )
+                        {
+                        <li class="page-item"><a class="page-link">...</a></li>
+                        }
+									<li class="page-item"><a class="page-link" href="/admin/product/@Model.PageCount">@Model.PageCount</a></li>
+
+                        @if (Model.HasNextPage)
+                        {
+										<li class="page-item"><a class="page-link" href="/admin/product/@NextPage">Trang sau</a></li>
+                        }
+                    </ul>
+                </div>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -107,7 +139,7 @@
 			<!--end main-->
 
 			<!-- javascript -->
-			<script src="js/jquery-1.11.1.min.js"></script>
-			<script src="js/bootstrap.min.js"></script>
-			<script src="js/chart.min.js"></script>
-			<script src="js/chart-data.js"></script>
+			<script src="~/admin/js/jquery-1.11.1.min.js"></script>
+			<script src="~/admin/js/bootstrap.min.js"></script>
+			<script src="~/admin/js/chart.min.js"></script>
+			<script src="~/admin/js/chart-data.js"></script>

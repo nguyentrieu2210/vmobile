@@ -71,7 +71,7 @@ namespace vphone.Models
                     .HasColumnName("PASSWORD");
 
                 entity.Property(e => e.Name)
-                    .HasMaxLength(50)
+                    .HasMaxLength(250)
                     .HasColumnName("NAME");
 
                 entity.Property(e => e.Phone)
@@ -174,9 +174,6 @@ namespace vphone.Models
             modelBuilder.Entity<Order>(entity =>
             {
                 entity.ToTable("orders");
-
-                entity.HasIndex(e => e.Email, "UQ__Order__161CF72455018123")
-                    .IsUnique();
 
                 entity.Property(e => e.Id)
                     .ValueGeneratedNever()
@@ -341,6 +338,15 @@ namespace vphone.Models
                     .ValueGeneratedNever()
                     .HasColumnName("ID");
 
+                entity.Property(e => e.Name)
+                    .HasMaxLength(250)
+                    .HasColumnName("NAME");
+
+                entity.Property(e => e.Image)
+                    .HasMaxLength(255)
+                    .IsUnicode(false)
+                    .HasColumnName("IMAGE");
+
                 entity.Property(e => e.OrderId).HasColumnName("ORDER_ID");
 
                 entity.Property(e => e.PrdId).HasColumnName("PRD_ID");
@@ -348,8 +354,6 @@ namespace vphone.Models
                 entity.Property(e => e.CreatedAt)
                     .HasColumnType("datetime")
                     .HasColumnName("CREATED_AT");
-
-                entity.Property(e => e.OrderId).HasColumnName("ORDER_ID");
 
                 entity.Property(e => e.Price)
                     .HasColumnType("money")

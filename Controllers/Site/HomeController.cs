@@ -10,7 +10,7 @@ namespace vphone.Controllers.Site
         {
             this.db = db;
         }
-
+        //[Route("site")]
         public IActionResult Index()
         {
              ViewBag.products_featured = db.Products
