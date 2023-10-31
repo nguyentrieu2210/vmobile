@@ -1,32 +1,100 @@
-#order-success{
-	margin-top:20px;
-	padding:20px;
-	background:#FFF;
-	border-radius:3px;}
-#order-success-img{
-	height:86px;
-	background:url(../images/img-ship.png) top left no-repeat;}
-#order-success-txt h3{
-	font-size:22px;
-	font-weight:bold;
-	text-transform:uppercase;
-	color:#58b947;}
-#order-success-txt p{
-	font-size:18px;}
+#order-success {
+	margin-top: 20px;
+	padding: 20px;
+	background: #FFF;
+	border-radius: 3px;
+}
 
+#order-success-img {
+	height: 86px;
+	background: url(../images/img-ship.png) top left no-repeat;
+}
 
+#order-success-txt h1 {
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #58b947;
+}
 
+#order-success-txt hr {
+	visibility: hidden;
+}
 
+#order-success-txt a:hover, a:active {
+	background-color: #c60a11;
+	color: yellow;
+}
 
+#order-success-txt a:link, a:visited {
+	background-color: #EB1F27;
+	font-size: 15px;
+	color: white;
+	padding: 15px;
+	margin-top: 15px;
+	margin-left: 10px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+}
 
+#order-success-txt h2 {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #EB1F27;
+	border-bottom: 2px solid black;
+}
 
+#extra-buttons {
+	justify-content: center;
+	vertical-align: middle;
+}
 
+#info-receipt table {
+	width: 100%;
+	border-radius: 10px;
+	background-color: transparent;
+}
 
+#info-receipt th {
+	padding: 10px;
+	font-size: 15px;
+	font-weight: normal;
+	border-bottom: 1px dotted transparent;
+}
 
+#info table {
+	background-color: transparent;
+	padding: 15px;
+}
 
+#info th {
+	padding: 10px;
+	font-size: 18px;
+	text-align: left;
+	font-weight: normal;
+}
 
+#row-1 th {
+	text-transform: uppercase;
+}
 
+#row-4 th {
+	font-weight: bold;
+	border-bottom: none;
+}
 
+#column-1 {
+	text-align: left;
+}
 
+#column-2 {
+	text-align: center;
+}
 
-	
+#column-3 {
+	text-align: right;
+}

@@ -38,7 +38,7 @@
                         </div>
                         <div id="product-details" class="col-lg-6 col-md-6 col-sm-12">
                             <ul>
-                                <li id="price-number"><strong>@Model.Price đ</strong></li>
+                                <li id="price-number"><strong>@string.Format("{0:N0} đ",Model.Price)</strong></li>
                                 @if(Model.IsStock == true) {
                                     <li id="status">Còn hàng</li>
                                 }else{

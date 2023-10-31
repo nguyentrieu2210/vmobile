@@ -10,7 +10,7 @@ namespace vphone.Models
         {
             OrderDetails = new HashSet<OrderDetail>();
         }
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int Id { get; set; }
         public int UserId { get; set; }
         public int? CusId { get; set; }   

@@ -5,6 +5,14 @@
     ViewData["Title"] = "Thêm Danh mục";
 	Layout = "~/Views/Admin/Shared/AdminLayout.cshtml";
 }
+@section Scripts{
+	<script>
+		setTimeout(function() {
+			$('#msgAlert').fadeOut('slow');
+		},3000)
+		</script>
+}
+@model Category
 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">
 			<ol class="breadcrumb">
@@ -27,26 +35,36 @@
 				<div class="panel panel-default">
 					<div class="panel-body">
 
-						<div class="alert bg-danger" role="alert">
+					@if (ViewBag.Msg != null)
+					{
+						<div id="msgAlert" class="alert bg-danger" role="alert">
 							<svg class="glyph stroked cancel">
 								<use xlink:href="#stroked-cancel"></use>
-							</svg>Tên danh mục đã tồn tại!<a href="#" class="pull-right"><span
-									class="glyphicon glyphicon-remove"></span></a>
+							</svg>@ViewBag.Msg<a href="#" class="pull-right">
+								<span class="glyphicon glyphicon-remove"></span>
+							</a>
 						</div>
-						<div class="container">
-							<div class="row">
-								<div class="form-group">
-									<label for="">Tên Danh mục</label>
-									<input type="text" class="form-control" name="name" id=""
-										placeholder="Tên danh mục mới">
-								</div>
-								<div class="form-group">
-									<label for="">Mô tả</label>
-									<input type="text" class="form-control" name="description" id=""
-										placeholder="Tên danh mục mới">
-								</div>
+
+					}
+					<div class="container">
+						<form asp-route="/admin/category/add" method="post">
+							<div class="form-group">
+								<label asp-for="Title">Tên Danh mục</label>
+								<input asp-for="Title" type="text" class="form-control" 
+									   placeholder="Tên danh mục mới">
+								<span asp-validation-for="Title" class="text-danger"></span>
+							</div>
+
+							<div class="form-group">
+								<label asp-for="Description">Mô tả</label>
+								<input asp-for="Description" type="text" class="form-control"
+									   placeholder="Nhập mô tả">
+								<span asp-validation-for="Description" class="text-danger"></span>
+							</div>
+							<div class="form-group">
 								<button type="submit" class="btn btn-primary">Thêm danh mục</button>
 							</div>
+						</form>
 						</div>
 
 					</div>

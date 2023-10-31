@@ -31,7 +31,7 @@ namespace vphone.Models
         }
 
         public QLQuanDTContext(DbContextOptions<QLQuanDTContext> options)
-            : base(options){ }
+            : base(options) { }
 
         public virtual DbSet<Category> Categories { get; set; } = null!;
         public virtual DbSet<Order> Orders { get; set; } = null!;
@@ -50,7 +50,8 @@ namespace vphone.Models
                     .IsUnique();
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .UseIdentityColumn(1, 1)
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("ID");
 
                 entity.Property(e => e.Address)
@@ -96,7 +97,8 @@ namespace vphone.Models
                     .IsUnique();
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .UseIdentityColumn(1, 1)
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("ID");
 
                 entity.Property(e => e.CreatedAt)
@@ -179,7 +181,8 @@ namespace vphone.Models
                     .IsUnique();
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .UseIdentityColumn(1, 1)
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("ID");
 
 
@@ -338,7 +341,8 @@ namespace vphone.Models
                 entity.ToTable("order_details");
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .UseIdentityColumn(1, 1)
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("ID");
 
                 entity.Property(e => e.OrderId).HasColumnName("ORDER_ID");

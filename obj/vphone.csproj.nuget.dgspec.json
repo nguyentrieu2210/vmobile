@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\lap_trinh_web\\vmobile\\vmobile\\vphone.csproj": {}
+    "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\vphone.csproj": {}
   },
   "projects": {
-    "F:\\lap_trinh_web\\vmobile\\vmobile\\vphone.csproj": {
+    "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\vphone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\lap_trinh_web\\vmobile\\vmobile\\vphone.csproj",
+        "projectUniqueName": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\vphone.csproj",
         "projectName": "vphone",
-        "projectPath": "F:\\lap_trinh_web\\vmobile\\vmobile\\vphone.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "F:\\lap_trinh_web\\vmobile\\vmobile\\obj\\",
+        "projectPath": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\vphone.csproj",
+        "packagesPath": "C:\\Users\\TLam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TLam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

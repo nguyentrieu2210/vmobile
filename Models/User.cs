@@ -12,7 +12,7 @@ namespace vphone.Models
             Orders = new HashSet<Order>();
             Categories = new HashSet<Category>();
         }
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }

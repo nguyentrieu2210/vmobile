@@ -62,7 +62,7 @@
 													</div>
 												</div>
 											</td>
-											<td class="text-center">@product.Price VND</td>
+											<td class="text-center">@string.Format("{0:N0} VND",product.Price)</td>
 											<td class="text-center">
 												<a class="btn btn-success" href="#" role="button">
 													@if (product.IsStock)
