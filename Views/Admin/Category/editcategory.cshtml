@@ -1,0 +1,71 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Cập nhật danh mục";
+	Layout = "~/Views/Admin/Shared/AdminLayout.cshtml";
+}
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+		<div class="row">
+			<ol class="breadcrumb">
+				<li><a href="#"><svg class="glyph stroked home">
+							<use xlink:href="#stroked-home"></use>
+						</svg></a></li>
+				<li class="active">Danh mục</li>
+			</ol>
+		</div>
+		<!--/.row-->
+
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">Quản lý danh mục</h1>
+			</div>
+		</div>
+		<!--/.row-->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="alert bg-success" role="alert">
+							<svg class="glyph stroked checkmark">
+								<use xlink:href="#stroked-checkmark"></use>
+							</svg> Đã cập nhật danh mục thành công! <a href="#" class="pull-right"><span
+									class="glyphicon glyphicon-remove"></span></a>
+						</div>
+						<div class="alert bg-danger" role="alert">
+							<svg class="glyph stroked cancel">
+								<use xlink:href="#stroked-cancel"></use>
+							</svg>Tên danh mục đã tồn tại!<a href="#" class="pull-right"><span
+									class="glyphicon glyphicon-remove"></span></a>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="form-group">
+									<label for="">Tên Danh mục</label>
+									<input type="text" class="form-control" name="name" id=""
+										placeholder="Tên danh mục" value="Iphone">
+								</div>
+								<div class="form-group">
+									<label for="">Mô tả</label>
+									<input type="text" class="form-control" name="description" id=""
+										placeholder="Tên danh mục mới">
+								</div>
+								<button type="submit" class="btn btn-primary">Cập nhật danh mục</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--/.col-->
+
+
+		</div>
+		<!--/.row-->
+	</div>
+	<!--/.main-->
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/chart.min.js"></script>
+	<script src="js/chart-data.js"></script>

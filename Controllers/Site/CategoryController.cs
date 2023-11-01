@@ -21,7 +21,7 @@ namespace vphone.Controllers.Site
             //if (page == null) page = 1;
             int pageSize = 6;
             int pageNumber = (page ?? 1);
-            var products = db.Products.Where(l => l.Cat.Slug == slug).Include(l => l.Cat).ToList();
+            var products = db.Products.Where(l => l.Cat.Slug == slug).Where(p => p.DeletedAt == false).Include(l => l.Cat).ToList();
             return View("~/Views/Site/Category/Index.cshtml", products.ToPagedList(pageNumber, pageSize));
         }
     }

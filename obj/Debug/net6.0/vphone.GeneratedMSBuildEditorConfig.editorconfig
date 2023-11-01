@@ -15,20 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\lap_trinh_web\vmobile\vmobile
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/lap_trinh_web/vmobile/vmobile/Views/Admin/Auth/Category/addcategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXV0aFxDYXRlZ29yeVxhZGRjYXRlZ29yeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/lap_trinh_web/vmobile/vmobile/Views/Admin/Auth/Category/category.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXV0aFxDYXRlZ29yeVxjYXRlZ29yeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/lap_trinh_web/vmobile/vmobile/Views/Admin/Auth/Category/editcategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXV0aFxDYXRlZ29yeVxlZGl0Y2F0ZWdvcnkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [F:/lap_trinh_web/vmobile/vmobile/Views/Admin/Auth/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXV0aFxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/lap_trinh_web/vmobile/vmobile/Views/Admin/Category/addcategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlcYWRkY2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/lap_trinh_web/vmobile/vmobile/Views/Admin/Category/category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlcY2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/lap_trinh_web/vmobile/vmobile/Views/Admin/Category/editcategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlcZWRpdGNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/lap_trinh_web/vmobile/vmobile/Views/Admin/Dashboard/Index.cshtml]
