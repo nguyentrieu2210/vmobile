@@ -17,20 +17,23 @@ namespace vphone.Controllers.Admin
         [Route("admin/login")]
 		public IActionResult Index()
 		{
-			return View("~/Views/Admin/Auth/login.cshtml");
+            if (HttpContext.Session.Get<string>("Email") != null)
+            {
+                return Redirect("/admin/dashboard");
+            }
+            return View("~/Views/Admin/Auth/login.cshtml");
 		}
         [HttpPost]
         [Route("/admin/login")]
-       //    [ValidateAntiForgeryToken]
         public IActionResult Login( Login user)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid && HttpContext.Session.Get<string>("Email") == null)
             {
                 var existUser = db.Users.SingleOrDefault(u => u.Email == user.Email);
                 if(existUser != null && existUser.Password == user.Password)
                 {
                     var email = user.Email;
-                    HttpContext.Session.Set<String>("Email", email);
+                    HttpContext.Session.Set<String>("Email", email.ToString());
                     return Redirect("/admin/dashboard");
                 }
                 else
