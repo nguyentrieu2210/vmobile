@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Data.Entity;
 using vphone.Models;
+using vphone.Helper;
 
 namespace vphone.Controllers.Admin
 {
@@ -41,6 +42,8 @@ namespace vphone.Controllers.Admin
 		{
 			var item = db.Orders.FirstOrDefault(o => o.Id == id);
 			item.State = true;
+            var email = HttpContext.Session.Get<string>("Email");
+            item.UserId = db.Users.Where(u => u.Email == email).FirstOrDefault().Id;
 			db.SaveChanges();
 			ViewBag.alert = "Đơn hàng đã được xử lý!";
             ViewBag.orders = db.Orders.Where(o => o.State == true).ToList();

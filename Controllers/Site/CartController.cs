@@ -107,8 +107,8 @@ namespace vphone.Controllers.Site
 		[HttpPost]
 		public IActionResult AddOrder(decimal totalPrice, [Bind("Name", "Phone", "Email", "Address")] Order order)
 		{
-			order.UserId = 1;
-			order.State = false;
+            order.UserId = 1;
+            order.State = false;
 			order.PriceTotal = totalPrice;
 			db.Orders.Add(order);
 			db.SaveChanges();

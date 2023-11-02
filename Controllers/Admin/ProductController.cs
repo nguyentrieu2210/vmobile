@@ -6,6 +6,7 @@ using X.PagedList;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Nop.Core.Domain.Seo;
 using vphone.Helper;
+using vphone.Models.Authentication;
 
 namespace vphone.Controllers.Admin
 {
@@ -17,7 +18,9 @@ namespace vphone.Controllers.Admin
             this.db = db;   
         }
 		[Route("/admin/product/{page?}")]
-		public IActionResult Index(int? page)
+        [Authentication]
+
+        public IActionResult Index(int? page)
 		{
             int pageSize = 5;
             int pageNumber = (page ?? 1);
@@ -26,6 +29,7 @@ namespace vphone.Controllers.Admin
 		}
 
         [Route("/admin/product/add")]
+        [Authentication]
         public IActionResult Add()
         {
             ViewBag.categories = db.Categories.ToList();
@@ -34,6 +38,7 @@ namespace vphone.Controllers.Admin
 
         [HttpPost]
         [Route("/admin/product/add")]
+        [Authentication]
         public IActionResult Store(Product product, IFormFile Image)
         {   
                 if (Image != null)
@@ -59,6 +64,7 @@ namespace vphone.Controllers.Admin
         }
 
         [Route("/admin/product/edit/{slug}/{id}")]
+        [Authentication]
         public IActionResult Edit(int id)
         {
             
@@ -74,6 +80,7 @@ namespace vphone.Controllers.Admin
 
         [HttpPost]
         [Route("/admin/product/update/{slug}/{id}")]
+        [Authentication]
         public IActionResult Update(Product product, IFormFile Image, int id)
         {
             if (id != product.Id)
@@ -133,6 +140,7 @@ namespace vphone.Controllers.Admin
         }
 
         [Route("/admin/product/delete/{id}")]
+        [Authentication]
         public IActionResult Delete(int id)
         {
             var item = db.Products.FirstOrDefault(o => o.Id == id);

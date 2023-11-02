@@ -102,7 +102,7 @@
                         }
                         @if (Model.PageCount != 1)
                         {
-										<li class="page-item"><a class="page-link" href="/admin/product/1">1</a></li>
+										<li class="page-item  @(Model.PageNumber==1 ? "active" : "")"><a class="page-link" href="/admin/product/1">1</a></li>
 									}
                         @if (Model.PageNumber - step >2 && Model.PageNumber !=2)
                         {
@@ -111,14 +111,14 @@
                         @for (int i = (Model.PageNumber == 1 ? 1 + step : (Model.PageNumber - step < 2 ? Model.PageNumber : Model.PageNumber - step)); i <= (Model.PageNumber == Model.PageCount ? Model.PageCount-1 : (Model.PageNumber + step>=Model.PageCount?Model.PageNumber:Model.PageNumber+step)); i = i + step)
                         {
 
-										<li class="page-item"><a class="page-link" href="/admin/product/@i">@i</a></li>
+										<li class="page-item @(i==Model.PageNumber ? "active" : "")"><a class="page-link" href="/admin/product/@i">@i</a></li>
 
                         }
                         @if (Model.PageNumber + step < Model.PageCount-1 && Model.PageNumber != Model.PageCount-1 )
                         {
                         <li class="page-item"><a class="page-link">...</a></li>
                         }
-									<li class="page-item"><a class="page-link" href="/admin/product/@Model.PageCount">@Model.PageCount</a></li>
+									<li class="page-item  @(Model.PageNumber==Model.PageCount ? "active" : "")	"><a class="page-link" href="/admin/product/@Model.PageCount">@Model.PageCount</a></li>
 
                         @if (Model.HasNextPage)
                         {
