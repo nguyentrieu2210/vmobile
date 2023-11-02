@@ -21,7 +21,7 @@ namespace vphone.Controllers.Admin
 		{
             int pageSize = 5;
             int pageNumber = (page ?? 1);
-            var products = db.Products.Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
+            var products = db.Products.OrderByDescending(p => p.CreatedAt).Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
 			return View("~/Views/Admin/Product/listproduct.cshtml", products.ToPagedList(pageNumber, pageSize));
 		}
 
@@ -52,7 +52,10 @@ namespace vphone.Controllers.Admin
                 db.Products.Add(product);
                 db.SaveChanges();
                 ViewBag.alert = "Đã thêm sản phẩm thành công!";
-                return Redirect("/admin/product/{pages)");
+                int pageSize = 5;
+                int pageNumber = 1;
+                var products = db.Products.OrderByDescending(p => p.CreatedAt).Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
+                return View("~/Views/Admin/Product/listproduct.cshtml", products.ToPagedList(pageNumber, pageSize));
         }
 
         [Route("/admin/product/edit/{slug}/{id}")]
@@ -79,21 +82,36 @@ namespace vphone.Controllers.Admin
             }
                 try
                 {
-                Console.WriteLine(product.Image);
-                if (Image != null)
-                {
-                    string fileName = Image.FileName;
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images", fileName);
-                    var stream = new FileStream(path, FileMode.Create);
-                    Image.CopyToAsync(stream);
-                    product.Image = fileName;
-                }
-                product.Id = id;
-                var email = HttpContext.Session.Get<string>("Email");
-                product.UserId = db.Users.Where(u => u.Email == email).FirstOrDefault().Id;
-                Slug slugGenerator = new Slug();
-                product.Slug = slugGenerator.GetSlug(product.Name);
-                db.Update(product);
+                    if (Image != null)
+                    {
+                        string fileName = Image.FileName;
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images", fileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            Image.CopyToAsync(stream);
+                        }    
+                        product.Image = fileName;
+                    }
+                    else
+                    {
+                        var existingProduct = db.Products.Find(id);
+                        if(existingProduct != null)
+                        {
+                            product.Image = existingProduct.Image;
+                        }
+                        // Ngừng theo dõi thực thể hiện tại (nếu có)
+                        db.Entry(existingProduct).State = EntityState.Detached;
+
+                        // Attach thực thể mới từ cơ sở dữ liệu
+                        db.Attach(product);
+                        db.Entry(product).State = EntityState.Modified;
+                    }
+                    product.Id = id;
+                    var email = HttpContext.Session.Get<string>("Email");
+                    product.UserId = db.Users.Where(u => u.Email == email).FirstOrDefault().Id;
+                    Slug slugGenerator = new Slug();
+                    product.Slug = slugGenerator.GetSlug(product.Name);
+                    db.Update(product);
                     db.SaveChanges();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -108,7 +126,10 @@ namespace vphone.Controllers.Admin
                     }
                 }
             ViewBag.alert = "Đã cập nhật sản phẩm thành công!";
-            return Redirect("/admin/product/{pages)");
+            int pageSize = 5;
+            int pageNumber = 1;
+            var products = db.Products.OrderByDescending(p => p.CreatedAt).Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
+            return View("~/Views/Admin/Product/listproduct.cshtml", products.ToPagedList(pageNumber, pageSize));
         }
 
         [Route("/admin/product/delete/{id}")]
@@ -120,7 +141,7 @@ namespace vphone.Controllers.Admin
             ViewBag.alert = "Sản phẩm đã được xóa!";
             int pageSize = 5;
             int pageNumber = 1;
-            var products = db.Products.Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
+            var products = db.Products.OrderByDescending(p => p.CreatedAt).Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
             return View("~/Views/Admin/Product/listproduct.cshtml", products.ToPagedList(pageNumber, pageSize));
         }
     }

@@ -20,6 +20,11 @@ namespace vphone.Models
                 }
                 else if (entry.State == EntityState.Modified)
                 {
+                    // Kiểm tra nếu trường CreatedAt là null hoặc không có giá trị, thì mới gán giá trị currentTime vào nó
+                    if (entry.OriginalValues["CreatedAt"] == null || entry.OriginalValues["CreatedAt"].ToString() == "")
+                    {
+                        entry.Property("CreatedAt").CurrentValue = currentTime;
+                    }
                     entry.Property("UpdatedAt").CurrentValue = currentTime;
                 }
             }

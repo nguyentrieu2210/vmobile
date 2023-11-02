@@ -15,11 +15,11 @@ namespace vphone.Controllers.Site
         {
              ViewBag.products_featured = db.Products
                                             .OrderByDescending(p => p.CreatedAt)
-                                            .Where(p => p.IsFeatured == true && p.IsStock == true)
+                                            .Where(p => p.IsFeatured == true && p.IsStock == true && p.DeletedAt == false)
                                             .Take(6).
                                             ToList();
             ViewBag.products = db.Products.OrderByDescending(p => p.CreatedAt)
-                                          .Where(p => p.IsStock == true)
+                                          .Where(p => p.IsStock == true && p.DeletedAt == false)
                                           .Take(6)
                                           .ToList();
 

@@ -26,7 +26,7 @@
                             <div class="product-item card text-center">
                                 <a href="/product/@item.Slug/@item.Id"><img src="~/images/@item.Image"></a>
                                 <h4><a style="color: #111" href="/product/@item.Slug/@item.Id">@item.Name</a></h4>
-                                <p>Giá Bán: <span>@item.Price đ</span></p>
+                                <p>Giá Bán: <span>@string.Format("{0:N0} đ", item.Price)</span></p>
                             </div>
                         }
                     </div>
@@ -40,7 +40,7 @@
                             <div class="product-item card text-center">
                                 <a href="/product/@item.Slug/@item.Id"><img src="~/images/@item.Image"></a>
                                 <h4><a style="color:#111" href="/product/@item.Slug/@item.Id">@item.Name</a></h4>
-                                <p>Giá Bán: <span>@item.Price đ</span></p>
+                                <p>Giá Bán: <span>@string.Format("{0:N0} đ", item.Price)</span></p>
                             </div>
                         }
                     </div>
