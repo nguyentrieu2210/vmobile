@@ -6,7 +6,6 @@ namespace vphone.Models
 {
     public partial class OrderDetail : BaseEntity
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Name { get; set; }
         public string Image { get; set; }
