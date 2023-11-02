@@ -4,7 +4,6 @@ using vphone.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Autofac.Core;
 using Microsoft.AspNetCore.Identity;
-using vphone.Middleware;
 using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -233,7 +233,8 @@ namespace vphone.Models
                 entity.ToTable("products");
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .UseIdentityColumn(1, 1)
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("ID");
 
                 entity.Property(e => e.BatteryCapacity)

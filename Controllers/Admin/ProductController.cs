@@ -44,7 +44,6 @@ namespace vphone.Controllers.Admin
                     Image.CopyToAsync(stream);
                     product.Image = fileName;
                 }
-                product.Id = 4;
                 var email = HttpContext.Session.Get<string>("Email");
                 product.UserId = db.Users.Where(u => u.Email == email).FirstOrDefault().Id;
                 Slug slugGenerator = new Slug();

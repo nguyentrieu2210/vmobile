@@ -10160,11 +10160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\lap_trinh_web\\vmobile\\vmobile\\vphone.csproj",
+      "projectUniqueName": "F:\\lap_trinh_web\\testnew\\vmobile\\vphone.csproj",
       "projectName": "vphone",
-      "projectPath": "F:\\lap_trinh_web\\vmobile\\vmobile\\vphone.csproj",
+      "projectPath": "F:\\lap_trinh_web\\testnew\\vmobile\\vphone.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "F:\\lap_trinh_web\\vmobile\\vmobile\\obj\\",
+      "outputPath": "F:\\lap_trinh_web\\testnew\\vmobile\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

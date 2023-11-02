@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fPOu66FwUSW3BcdNhxVKZXIfEW+73kD/TosVqWgOyCX4MWI4tqblq7JtR/LmjnBJ/Lpgh9DYzpnH+7UoqgDL0Q==",
+  "dgSpecHash": "iQnnUP6mrpVirR7coisnON8WGg07GQ8riQp86IZUSWg+8ouJ7IIj26mTnilWr/3CExX26e/5pRGRr8ImvBG0SA==",
   "success": true,
-  "projectFilePath": "F:\\lap_trinh_web\\vmobile\\vmobile\\vphone.csproj",
+  "projectFilePath": "F:\\lap_trinh_web\\testnew\\vmobile\\vphone.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\antlr\\3.5.0.2\\antlr.3.5.0.2.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\autofac\\4.4.0\\autofac.4.4.0.nupkg.sha512",
