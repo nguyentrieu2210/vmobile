@@ -16,11 +16,11 @@ namespace vphone.Data
                 }
                 var users = new User[]
                 {
-                    new User{Id = 1, Name = "Nguyễn Văn Triệu", Email="admin@gmail.com", Password = "123456", Address="Nam Định", Phone="0123456789"},
-                    new User{Id = 2, Name = "Nguyễn Danh Trường", Email="truong@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
-                    new User{Id = 3, Name = "Nguyễn Tùng Lâm", Email="lam@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
-                    new User{Id = 4, Name = "Bùi Xuân Nam", Email="nam@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
-                    new User{Id = 5, Name = "Vũ Đức Lân", Email="lan@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
+                    new User{Name = "Nguyễn Văn Triệu", Email="admin@gmail.com", Password = "123456", Address="Nam Định", Phone="0123456789"},
+                    new User{Name = "Nguyễn Danh Trường", Email="truong@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
+                    new User{Name = "Nguyễn Tùng Lâm", Email="lam@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
+                    new User{Name = "Bùi Xuân Nam", Email="nam@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
+                    new User{Name = "Vũ Đức Lân", Email="lan@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
                 };
                 foreach (var user in users)
                 {
@@ -33,9 +33,9 @@ namespace vphone.Data
                 }
                 var categories = new Category[]
                 {
-                    new Category{Id = 1, Title = "Iphone", Slug ="Iphone", Description = "Điện thoại Iphone" ,UserId=1},
-                    new Category{Id = 2, Title = "Samsung", Slug ="Samsung", Description = "Điện thoại Samsung" ,UserId=1 },
-                    new Category{Id = 3, Title = "Xiaomi", Slug ="Xiaomi", Description = "Điện thoại Xiaomi" ,UserId=1 }
+                    new Category{Title = "Iphone", Slug ="Iphone", Description = "Điện thoại Iphone" ,UserId=1},
+                    new Category{Title = "Samsung", Slug ="Samsung", Description = "Điện thoại Samsung" ,UserId=1 },
+                    new Category{Title = "Xiaomi", Slug ="Xiaomi", Description = "Điện thoại Xiaomi" ,UserId=1 }
 
                 };
                 foreach (var category in categories)
@@ -108,9 +108,9 @@ namespace vphone.Data
                 }
                 var orders = new Order[]
                 {
-                    new Order{Id = 1, UserId = 1, Name ="Cù Trọng Xoay", Email = "cu@gmail.com" ,Phone="0386673152", Address="Xuân Trường, Nam Định", State=false},
-                    new Order{Id = 2, UserId = 1, Name ="Lò Thị Nở", Email = "no@gmail.com" ,Phone="0386673155" , Address="Hà Nội", State=false},
-                    new Order{Id = 3, UserId = 1, Name ="Xuân Tóc Đỏ", Email = "xuan@gmail.com" ,Phone="0386673151", Address="Phú Thọ", State=true}
+                    new Order{UserId = 1, Name ="Cù Trọng Xoay", Email = "cu@gmail.com" ,Phone="0386673152", Address="Xuân Trường, Nam Định", State=false},
+                    new Order{UserId = 1, Name ="Lò Thị Nở", Email = "no@gmail.com" ,Phone="0386673155" , Address="Hà Nội", State=false},
+                    new Order{UserId = 1, Name ="Xuân Tóc Đỏ", Email = "xuan@gmail.com" ,Phone="0386673151", Address="Phú Thọ", State=true}
 
                 };
                 foreach (var order in orders)
@@ -124,12 +124,12 @@ namespace vphone.Data
                 }
                 var orderDetails = new OrderDetail[]
                 {
-                    new OrderDetail{Id=1, Name = "Điện thoại di động iPhone 15 Pro Max (512GB) - Chính hãng VN/A", Image = "iphone-15-pro-max-blue-titanium-pure.png", PrdId = 1, OrderId =1, Qty=4, Price = 39750000},
-                    new OrderDetail{Id=2, Name = "Điện thoại di động iPhone 15 Pro Max (1T) - Chính hãng VN/A", Image = "iphone-15-pro-max-white-titanium-pure.png",  PrdId = 3, OrderId =1, Qty=2, Price = 45990000},
-                    new OrderDetail{Id=3, Name = "Điện thoại di động iPhone 15 Pro Max (512GB) - Chính hãng VN/A", Image = "iphone-15-pro-max-blue-titanium-pure.png", PrdId = 1, OrderId =2, Qty=3, Price = 39750000},
-                    new OrderDetail{Id=4, Name = "Điện thoại di động iPhone 15 Pro Max (256GB) - Chính hãng VN/A", Image = "iphone-15-pro-max-natural-titanium-pure.png",  PrdId = 2, OrderId =2, Qty=2, Price = 33850000},
-                    new OrderDetail{Id=5, Name = "Điện thoại di động iPhone 15 Pro Max (256GB) - Chính hãng VN/A", Image = "iphone-15-pro-max-natural-titanium-pure.png",  PrdId = 2, OrderId =3, Qty=1, Price = 33850000},
-                    new OrderDetail{Id=6, Name = "Điện thoại di động iPhone 15 Pro Max (1T) - Chính hãng VN/A", Image = "iphone-15-pro-max-white-titanium-pure.png",  PrdId = 3, OrderId =3, Qty=2, Price = 45990000},
+                    new OrderDetail{Name = "Điện thoại di động iPhone 15 Pro Max (512GB) - Chính hãng VN/A", Image = "iphone-15-pro-max-blue-titanium-pure.png", PrdId = 1, OrderId =1, Qty=4, Price = 39750000},
+                    new OrderDetail{Name = "Điện thoại di động iPhone 15 Pro Max (1T) - Chính hãng VN/A", Image = "iphone-15-pro-max-white-titanium-pure.png",  PrdId = 3, OrderId =1, Qty=2, Price = 45990000},
+                    new OrderDetail{Name = "Điện thoại di động iPhone 15 Pro Max (512GB) - Chính hãng VN/A", Image = "iphone-15-pro-max-blue-titanium-pure.png", PrdId = 1, OrderId =2, Qty=3, Price = 39750000},
+                    new OrderDetail{Name = "Điện thoại di động iPhone 15 Pro Max (256GB) - Chính hãng VN/A", Image = "iphone-15-pro-max-natural-titanium-pure.png",  PrdId = 2, OrderId =2, Qty=2, Price = 33850000},
+                    new OrderDetail{Name = "Điện thoại di động iPhone 15 Pro Max (256GB) - Chính hãng VN/A", Image = "iphone-15-pro-max-natural-titanium-pure.png",  PrdId = 2, OrderId =3, Qty=1, Price = 33850000},
+                    new OrderDetail{Name = "Điện thoại di động iPhone 15 Pro Max (1T) - Chính hãng VN/A", Image = "iphone-15-pro-max-white-titanium-pure.png",  PrdId = 3, OrderId =3, Qty=2, Price = 45990000},
 
                 };
                 foreach (var orderDetail in orderDetails)

@@ -50,8 +50,9 @@ namespace vphone.Models
                     .IsUnique();
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("ID");
+					.UseIdentityColumn(1, 1)
+					.ValueGeneratedOnAdd()
+					.HasColumnName("ID");
 
                 entity.Property(e => e.Address)
                     .HasMaxLength(255)
@@ -96,8 +97,9 @@ namespace vphone.Models
                     .IsUnique();
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("ID");
+					.UseIdentityColumn(1, 1)
+					.ValueGeneratedOnAdd()
+					.HasColumnName("ID");
 
                 entity.Property(e => e.CreatedAt)
                     .HasColumnType("datetime")
@@ -136,8 +138,9 @@ namespace vphone.Models
                 entity.ToTable("customers");
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("ID");
+					.UseIdentityColumn(1, 1)
+					.ValueGeneratedOnAdd()
+					.HasColumnName("ID");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(50)
@@ -176,8 +179,9 @@ namespace vphone.Models
                 entity.ToTable("orders");
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("ID");
+					.UseIdentityColumn(1, 1)
+					.ValueGeneratedOnAdd()
+					.HasColumnName("ID");
 
 
                 entity.Property(e => e.Address)
@@ -336,8 +340,9 @@ namespace vphone.Models
                 entity.ToTable("order_details");
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("ID");
+					.UseIdentityColumn(1, 1)
+					.ValueGeneratedOnAdd()
+					.HasColumnName("ID");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(250)
