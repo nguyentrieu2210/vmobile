@@ -7,35 +7,88 @@
 }
 
 <!--	Body	-->
-<div id="body">
+<!--	Order Success	-->
+<div id="order-success">
     <div class="container">
         <div class="row">
-            <div id="main" class="col-lg-8 col-md-12 col-sm-12">
-                <!--	Slider	-->
-                @{
-                    var partialSlider = await Html.PartialAsync("~/Views/Site/Shared/Slider.cshtml");
-                }
-                @partialSlider
-                <!--	End Slider	-->
-                <!--	Order Success	-->
-                <div id="order-success">
-                    <div class="row">
-                        <div id="order-success-img" class="col-lg-3 col-md-3 col-sm-12"></div>
-                        <div id="order-success-txt" class="col-lg-9 col-md-9 col-sm-12">
-                            <h3>bạn đã đặt hàng thành công !</h3>
-                            <p>Vui lòng kiểm tra email để xem lại thông tin đơn hàng của mình.</p>
+            <div id="order-success-img" class="col-lg-2 col-md-2 col-sm-12"></div>
+            <div id="order-success-txt" class="col-lg-10 col-md-10 col-sm-12">
+                <h1>
+                    Đơn hàng đã đặt thành công!
+                    Cảm ơn bạn đã mua hàng.
+                </h1>
+                <hr>
+                <div class="row">
+                    @* <div id="info" class="col-lg-6 col-md-6 col-sm-12">
+                    <h2>Thông tin đơn hàng:</h2>
+                    <table>
+                    <tr>
+                    <th>Đơn hàng số:</th>
+                    <th> @ViewBag.Ordersc.Id</th>
+                    </tr>
+                    <tr>
+                    <th>Ngày mua: </th>
+                    <th> @ViewBag.Ordersc.Created_At</th>
+                    </tr>
+                    <tr>
+                    <th>Tổng biên:</th>
+                    <th> @ViewBag.Ordersc.PriceTotal</th>
+                    </tr>
+                    </table>
+                    </div> *@
+                    <div id="info" class="col-lg-6 col-md-6 col-sm-12">
+                        <h2>Thông tin khách hàng:</h2>
+                        <table>
+                            <tr>
+                                <th>Họ Tên:</th>
+                                <th>@ViewBag.Ordersc.Name</th>
+                            </tr>
+                            <tr>
+                                <th>Số điện thoại:</th>
+                                <th>@ViewBag.Ordersc.Phone</th>
+                            </tr>
+                            <tr>
+                                <th>Địa chỉ:</th>
+                                <th>@ViewBag.Ordersc.Address</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="info-receipt" class="col-lg-12 col-md-12 col-sm-12">
+                        <h2>Hóa đơn:</h2>
+                        <table>
+                            <tr id="row-1">
+                                <th id="column-1">Sản phẩm</th>
+                                <th id="column-2"> Số lượng</th>
+                                <th id="column-3"> Giá tiền</th>
+                            </tr>
+                            @foreach (var i in ViewBag.cartsc.Items)
+                            {
+                                <tr id="row-2">
+                                    <th id="column-1">@i.Name:</th>
+                                    <th id="column-2"> @i.Qty</th>
+                                    <th id="column-3"> @string.Format("{0:N0} đ", i.Price)</th>
+                                </tr>
+                            }
+                            <tr>
+                                <th id="column-1">
+                                    Tổng tiền:
+                                </th>
+                                <th id="column-3">
+                                    @string.Format("{0:N0} đ",  @ViewBag.Ordersc.PriceTotal)
+                                </th>
+                            </tr>
+                        </table>
+                        <div id="extra-buttons">
+                            <a href="/">Trang chủ</a>
+                            <a href="/category/Iphone">Tiếp tục mua sắm</a>
                         </div>
                     </div>
                 </div>
-                <!--	End Order Success	-->
-
             </div>
-
-            @{
-                var partialSideBar = await Html.PartialAsync("~/Views/Site/Shared/SideBar.cshtml");
-            }
-            @partialSideBar
         </div>
     </div>
 </div>
+<!--	End Order Success	-->
 <!--	End Body	-->

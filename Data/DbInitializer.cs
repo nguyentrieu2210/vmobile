@@ -16,11 +16,11 @@ namespace vphone.Data
                 }
                 var users = new User[]
                 {
-                    new User{Id = 1, Name = "Nguyễn Văn Triệu", Email="admin@gmail.com", Password = "123456", Address="Nam Định", Phone="0123456789"},
-                    new User{Id = 2, Name = "Nguyễn Danh Trường", Email="truong@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
-                    new User{Id = 3, Name = "Nguyễn Tùng Lâm", Email="lam@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
-                    new User{Id = 4, Name = "Bùi Xuân Nam", Email="nam@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
-                    new User{Id = 5, Name = "Vũ Đức Lân", Email="lan@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
+                    new User{Name = "Nguyễn Văn Triệu", Email="admin@gmail.com", Password = "123456", Address="Nam Định", Phone="0123456789"},
+                    new User{Name = "Nguyễn Danh Trường", Email="truong@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
+                    new User{Name = "Nguyễn Tùng Lâm", Email="lam@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
+                    new User{Name = "Bùi Xuân Nam", Email="nam@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
+                    new User{Name = "Vũ Đức Lân", Email="lan@gmail.com", Password = "123456", Address="Hà Nội", Phone="0123456789"},
                 };
                 foreach (var user in users)
                 {
@@ -33,9 +33,9 @@ namespace vphone.Data
                 }
                 var categories = new Category[]
                 {
-                    new Category{Id = 1, Title = "Iphone", Slug ="Iphone", Description = "Điện thoại Iphone" ,UserId=1},
-                    new Category{Id = 2, Title = "Samsung", Slug ="Samsung", Description = "Điện thoại Samsung" ,UserId=1 },
-                    new Category{Id = 3, Title = "Xiaomi", Slug ="Xiaomi", Description = "Điện thoại Xiaomi" ,UserId=1 }
+                    new Category{Title = "Iphone", Slug ="Iphone", Description = "Điện thoại Iphone" ,UserId=1},
+                    new Category{Title = "Samsung", Slug ="Samsung", Description = "Điện thoại Samsung" ,UserId=1 },
+                    new Category{Title = "Xiaomi", Slug ="Xiaomi", Description = "Điện thoại Xiaomi" ,UserId=1 }
 
                 };
                 foreach (var category in categories)

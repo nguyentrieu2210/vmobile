@@ -30,17 +30,13 @@
                         }
                     }
                     <h2><a class="text-dark" style="font-size: 24px" href="~/category/@slug">@title (hiện có @qty sản phẩm)</a></h2>
-                    <div class="row text-center">
-                        @foreach (var product in Model)
+                    <div class="product-list card-deck">
+                        @foreach (var item in Model)
                         {
-                            <div class="product-list col-lg-4 col-md-12 mb-4">
-                                <div class="product-item card text-center">
-                                    <div class="card-body">
-                                        <a href="#"><img src="~/images/@product.Image"></a>
-                                        <h4><a href="#">@product.Name/a></h4>
-                                        <p>Giá Bán: <span>@product.Price</span></p>
-                                    </div>
-                                </div>
+                            <div class="product-item card text-center">
+                                <a href="/product/@item.Slug/@item.Id"><img src="~/images/@item.Image"></a>
+                                <h4><a style="color: #111" href="/product/@item.Slug/@item.Id">@item.Name</a></h4>
+                                <p>Giá Bán: <span>@string.Format("{0:N0} đ",item.Price)</span></p>
                             </div>
                         }
                     </div>
@@ -58,26 +54,28 @@
                         {
                             <li class="page-item"><a class="page-link" href="/category/@slug/@PreviousPage">Trang trước</a></li>
                         }
-                        @if (Model.PageCount != 1)
+                        @if (Model.PageCount > 1)
                         {
-                            <li class="page-item"><a class="page-link" href="/category/@slug/1">1</a></li>                              
+                            <li class="page-item @(Model.PageNumber==1 ? "active" : "")"><a class="page-link" href="/category/@slug/1">1</a></li>
                         }
-                        @if (Model.PageNumber - step >2 && Model.PageNumber !=2)
+                        @if (Model.PageNumber - step > 2 && Model.PageNumber != 2)
                         {
-                        <li class="page-item"><a class="page-link">...</a></li>
+                            <li class="page-item"><a class="page-link">...</a></li>
                         }
-                        @for (int i = (Model.PageNumber == 1 ? 1 + step : (Model.PageNumber - step < 2 ? Model.PageNumber : Model.PageNumber - step)); i <= (Model.PageNumber == Model.PageCount ? Model.PageCount-1 : (Model.PageNumber + step>=Model.PageCount?Model.PageNumber:Model.PageNumber+step)); i = i + step)
-                        {                            
-
-                                <li class="page-item"><a class="page-link" href="/category/@slug/@i">@i</a></li>
-
-                        }
-                        @if (Model.PageNumber + step < Model.PageCount-1 && Model.PageNumber != Model.PageCount-1 )
+                        @for (int i = (Model.PageNumber == 1 ? 1 + step : (Model.PageNumber - step < 2 ? Model.PageNumber : Model.PageNumber - step)); i <= (Model.PageNumber == Model.PageCount ? Model.PageCount - 1 : (Model.PageNumber + step >= Model.PageCount ? Model.PageNumber : Model.PageNumber + step)); i = i + step)
                         {
-                        <li class="page-item"><a class="page-link">...</a></li>
-                        }
-                        <li class="page-item"><a class="page-link" href="/category/@slug/@Model.PageCount">@Model.PageCount</a></li>
 
+                            <li class="page-item @(i==Model.PageNumber ? "active" : "")"><a class="page-link" href="/category/@slug/@i">@i</a></li>
+
+                        }
+                        @if (Model.PageNumber + step < Model.PageCount - 1 && Model.PageNumber != Model.PageCount - 1)
+                        {
+                            <li class="page-item"><a class="page-link">...</a></li>
+                        }
+                        @if (Model.PageCount != 0)
+                        {
+                            <li class="page-item @(Model.PageNumber==Model.PageCount ? "active" : "")"><a class="page-link" href="/category/@slug/@Model.PageCount">@Model.PageCount</a></li>
+                        }
                         @if (Model.HasNextPage)
                         {
                             <li class="page-item"><a class="page-link" href="/category/@slug/@NextPage">Trang sau</a></li>

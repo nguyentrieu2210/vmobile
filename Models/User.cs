@@ -14,6 +14,10 @@ namespace vphone.Models
             Orders = new HashSet<Order>();
             Categories = new HashSet<Category>();
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> adcategory
         public int Id { get; set; }
         [RegularExpression("^[a-zA-Z]+([\\s][a-zA-Z]+)*$", ErrorMessage = "Tên không được chứa số và kí tự đặc biệt")]
         [StringLength(100, MinimumLength = 4, ErrorMessage = "Tên phải có ít nhất 4 kí tự và dưới 100 kí tự")]

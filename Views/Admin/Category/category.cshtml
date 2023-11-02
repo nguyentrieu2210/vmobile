@@ -5,7 +5,15 @@
 	ViewData["Title"] = "Quản lý danh mục";
 	Layout = "~/Views/Admin/Shared/AdminLayout.cshtml";
 }
-@model IEnumerable<Category>
+@section Scripts{
+	<script>
+		setTimeout(function() {
+			$('#msgAlert').fadeOut('slow');
+		},3000)
+		</script>
+}
+
+
 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 	<div class="row">
 		<ol class="breadcrumb">
@@ -33,13 +41,26 @@
 			<div class="panel panel-primary">
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="alert bg-success" role="alert">
-							<svg class="glyph stroked checkmark">
-								<use xlink:href="#stroked-checkmark"></use>
-							</svg> Đã thêm danh mục thành công! <a href="#" class="pull-right">
-								<span class="glyphicon glyphicon-remove"></span>
-							</a>
-						</div>
+						@if(ViewBag.Msg != null)
+						{
+							<div id="msgAlert" class="alert bg-success" role="alert">
+								<svg class="glyph stroked checkmark">
+									<use xlink:href="#stroked-checkmark"></use>
+								</svg>@ViewBag.Msg<a href="#" class="pull-right">
+									<span class="glyphicon glyphicon-remove"></span>
+								</a>
+							</div>
+						}
+						@if(ViewBag.Err != null)
+						{
+							<div id="msgAlert" class="alert bg-danger" role="alert">
+								<svg class="glyph stroked cancel">
+									<use xlink:href="#stroked-cancel"></use>
+								</svg>@ViewBag.Err<a href="#" class="pull-right">
+									<span class="glyphicon glyphicon-remove"></span>
+								</a>
+							</div>
+						}
 						<div class="panel-body">
 							<div class="bootstrap-table">
 								<div class="table-responsive">
@@ -71,7 +92,47 @@
 								</div>
 							</div>
 							<div class="clearfix"></div>
-						</div>
+							@{
+								var PreviousPage = Model.PageNumber - 1;
+								var NextPage = Model.PageNumber + 1;
+								var step = 1;
+							}
+							<div id="pagination">
+								<ul class="pagination">
+									@if (Model.HasPreviousPage)
+									{
+										<li class="page-item"><a class="page-link" href="/admin/category/@PreviousPage">Trang trước</a></li>
+									}
+									@if (Model.PageCount > 1)
+									{
+										<li class="page-item  @(Model.PageNumber==1 ? "active" : "")"><a class="page-link" href="/admin/category/1">1</a></li>
+									}
+									@if (Model.PageNumber - step > 2 && Model.PageNumber != 2)
+									{
+										<li class="page-item"><a class="page-link">...</a></li>
+									}
+									@for (int i = (Model.PageNumber == 1 ? 1 + step : (Model.PageNumber - step < 2 ? Model.PageNumber : Model.PageNumber - step)); i <= (Model.PageNumber == Model.PageCount ? Model.PageCount - 1 : (Model.PageNumber + step >= Model.PageCount ? Model.PageNumber : Model.PageNumber + step)); i = i + step)
+									{
+
+										<li class="page-item  @(i==Model.PageNumber ? "active" : "")"><a class="page-link" href="/admin/category/@i">@i</a></li>
+
+									}
+									@if (Model.PageNumber + step < Model.PageCount - 1 && Model.PageNumber != Model.PageCount - 1)
+									{
+										<li class="page-item"><a class="page-link">...</a></li>
+									}
+									
+									@if (Model.PageCount != 0)
+									{
+										<li class="page-item  @(Model.PageNumber==Model.PageCount ? "active" : "")"><a class="page-link" href="/admin/category/@Model.PageCount">@Model.PageCount</a></li>
+									}
+									@if (Model.HasNextPage)
+									{
+										<li class="page-item"><a class="page-link" href="/admin/category/@NextPage">Trang sau</a></li>
+									}
+								</ul>
+							</div>
+						</div>						
 					</div>
 				</div>
 			</div>

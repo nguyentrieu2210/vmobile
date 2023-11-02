@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "PIon/XHy2tMYcjUFAsI4NsapXQrJWKiTn0r1UBNTEVg=",
+=======
+  "Hash": "U3ukLYJ8dtvedAJ6CLPh/A6q9+FsfXBEGyWH9d3NW28=",
+>>>>>>> adcategory
   "Source": "vphone",
   "BasePath": "_content/vphone",
   "Mode": "Default",
@@ -10,17 +14,17 @@
     {
       "Name": "vphone\\wwwroot",
       "Source": "vphone",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\css\\all.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\css\\all.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/css/all.css",
       "AssetKind": "All",
@@ -34,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\css\\all.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-brands-400.eot",
       "AssetKind": "All",
@@ -51,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-brands-400.svg",
       "AssetKind": "All",
@@ -68,10 +72,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-brands-400.ttf",
       "AssetKind": "All",
@@ -85,10 +89,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-brands-400.woff",
       "AssetKind": "All",
@@ -102,10 +106,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-brands-400.woff2",
       "AssetKind": "All",
@@ -119,10 +123,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-brands-400.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-light-300.eot",
       "AssetKind": "All",
@@ -136,10 +140,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-light-300.svg",
       "AssetKind": "All",
@@ -153,10 +157,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-light-300.ttf",
       "AssetKind": "All",
@@ -170,10 +174,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-light-300.woff",
       "AssetKind": "All",
@@ -187,10 +191,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-light-300.woff2",
       "AssetKind": "All",
@@ -204,10 +208,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-light-300.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-regular-400.eot",
       "AssetKind": "All",
@@ -221,10 +225,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-regular-400.svg",
       "AssetKind": "All",
@@ -238,10 +242,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-regular-400.ttf",
       "AssetKind": "All",
@@ -255,10 +259,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-regular-400.woff",
       "AssetKind": "All",
@@ -272,10 +276,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-regular-400.woff2",
       "AssetKind": "All",
@@ -289,10 +293,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-regular-400.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-solid-900.eot",
       "AssetKind": "All",
@@ -306,10 +310,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-solid-900.svg",
       "AssetKind": "All",
@@ -323,10 +327,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-solid-900.ttf",
       "AssetKind": "All",
@@ -340,10 +344,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-solid-900.woff",
       "AssetKind": "All",
@@ -357,10 +361,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/._fa-solid-900.woff2",
       "AssetKind": "All",
@@ -374,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\._fa-solid-900.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -391,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -408,10 +412,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -425,10 +429,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -442,10 +446,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -459,10 +463,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-light-300.eot",
       "AssetKind": "All",
@@ -476,10 +480,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-light-300.svg",
       "AssetKind": "All",
@@ -493,10 +497,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-light-300.ttf",
       "AssetKind": "All",
@@ -510,10 +514,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-light-300.woff",
       "AssetKind": "All",
@@ -527,10 +531,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-light-300.woff2",
       "AssetKind": "All",
@@ -544,10 +548,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-light-300.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -561,10 +565,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -578,10 +582,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -595,10 +599,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -612,10 +616,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -629,10 +633,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -646,10 +650,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -663,10 +667,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -680,10 +684,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -697,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/Awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -714,10 +718,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\Awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\css\\bootstrap.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -731,10 +735,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\css\\datepicker.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\css\\datepicker.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/css/datepicker.css",
       "AssetKind": "All",
@@ -748,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\datepicker.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\css\\datepicker3.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\css\\datepicker3.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/css/datepicker3.css",
       "AssetKind": "All",
@@ -765,10 +769,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\datepicker3.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\css\\styles.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\css\\styles.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/css/styles.css",
       "AssetKind": "All",
@@ -782,10 +786,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\styles.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -799,10 +803,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -816,10 +820,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -833,10 +837,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -850,10 +854,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\img\\ao-khoac.jpg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\img\\ao-khoac.jpg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/img/ao-khoac.jpg",
       "AssetKind": "All",
@@ -867,10 +871,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\ao-khoac.jpg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\img\\ao-nu-phoi-vien.jpg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\img\\ao-nu-phoi-vien.jpg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/img/ao-nu-phoi-vien.jpg",
       "AssetKind": "All",
@@ -884,10 +888,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\ao-nu-phoi-vien.jpg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\img\\ao-nu-so-mi-cham-bi.jpg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\img\\ao-nu-so-mi-cham-bi.jpg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/img/ao-nu-so-mi-cham-bi.jpg",
       "AssetKind": "All",
@@ -901,10 +905,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\ao-nu-so-mi-cham-bi.jpg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\img\\ao-nu-so-mi-co-co-duc.jpg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\img\\ao-nu-so-mi-co-co-duc.jpg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/img/ao-nu-so-mi-co-co-duc.jpg",
       "AssetKind": "All",
@@ -918,10 +922,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\ao-nu-so-mi-co-co-duc.jpg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\img\\import-img.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\img\\import-img.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/img/import-img.png",
       "AssetKind": "All",
@@ -935,10 +939,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\import-img.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\img\\no-img.jpg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\img\\no-img.jpg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/img/no-img.jpg",
       "AssetKind": "All",
@@ -952,10 +956,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\no-img.jpg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\img\\quan-kaki-do-man-qk162-8273.jpg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\img\\quan-kaki-do-man-qk162-8273.jpg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/img/quan-kaki-do-man-qk162-8273.jpg",
       "AssetKind": "All",
@@ -969,10 +973,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\quan-kaki-do-man-qk162-8273.jpg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\bootstrap.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/bootstrap.js",
       "AssetKind": "All",
@@ -986,10 +990,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\bootstrap.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1003,10 +1007,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\bootstrap-datepicker.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\bootstrap-datepicker.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/bootstrap-datepicker.js",
       "AssetKind": "All",
@@ -1020,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\bootstrap-datepicker.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\bootstrap-table.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\bootstrap-table.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/bootstrap-table.js",
       "AssetKind": "All",
@@ -1037,10 +1041,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\bootstrap-table.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\chart.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\chart.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/chart.min.js",
       "AssetKind": "All",
@@ -1054,10 +1058,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\chart.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\chart-data.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\chart-data.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/chart-data.js",
       "AssetKind": "All",
@@ -1071,10 +1075,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\chart-data.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\easypiechart.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\easypiechart.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/easypiechart.js",
       "AssetKind": "All",
@@ -1088,10 +1092,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\easypiechart.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\easypiechart-data.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\easypiechart-data.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/easypiechart-data.js",
       "AssetKind": "All",
@@ -1105,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\easypiechart-data.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\html5shiv.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\html5shiv.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/html5shiv.min.js",
       "AssetKind": "All",
@@ -1122,10 +1126,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\html5shiv.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\jquery-1.11.1.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\jquery-1.11.1.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/jquery-1.11.1.min.js",
       "AssetKind": "All",
@@ -1139,10 +1143,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\jquery-1.11.1.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\lumino.glyphs.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\lumino.glyphs.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/lumino.glyphs.js",
       "AssetKind": "All",
@@ -1156,10 +1160,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\lumino.glyphs.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\admin\\js\\respond.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\admin\\js\\respond.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "admin/js/respond.min.js",
       "AssetKind": "All",
@@ -1173,10 +1177,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\respond.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\css\\site.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1190,10 +1194,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\favicon.ico",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1207,6 +1211,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\import-img.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
@@ -1225,9 +1230,12 @@
     },
     {
       "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\iphone-15-pro-black-titanium-pure.png",
+=======
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\images\\iphone-15-pro-black-titanium-pure.png",
+>>>>>>> adcategory
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "images/iphone-15-pro-black-titanium-pure.png",
       "AssetKind": "All",
@@ -1241,10 +1249,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iphone-15-pro-black-titanium-pure.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\iphone-15-pro-blue-titanium-pure.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\images\\iphone-15-pro-blue-titanium-pure.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "images/iphone-15-pro-blue-titanium-pure.png",
       "AssetKind": "All",
@@ -1258,10 +1266,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iphone-15-pro-blue-titanium-pure.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\iphone-15-pro-max-black-titanium-pure.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\images\\iphone-15-pro-max-black-titanium-pure.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "images/iphone-15-pro-max-black-titanium-pure.png",
       "AssetKind": "All",
@@ -1275,10 +1283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iphone-15-pro-max-black-titanium-pure.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\iphone-15-pro-max-blue-titanium-pure.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\images\\iphone-15-pro-max-blue-titanium-pure.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "images/iphone-15-pro-max-blue-titanium-pure.png",
       "AssetKind": "All",
@@ -1292,10 +1300,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iphone-15-pro-max-blue-titanium-pure.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\iphone-15-pro-max-natural-titanium-pure.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\images\\iphone-15-pro-max-natural-titanium-pure.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "images/iphone-15-pro-max-natural-titanium-pure.png",
       "AssetKind": "All",
@@ -1309,10 +1317,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iphone-15-pro-max-natural-titanium-pure.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\iphone-15-pro-max-white-titanium-pure.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\images\\iphone-15-pro-max-white-titanium-pure.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "images/iphone-15-pro-max-white-titanium-pure.png",
       "AssetKind": "All",
@@ -1326,10 +1334,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iphone-15-pro-max-white-titanium-pure.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\iphone-15-pro-natural-titanium-pure.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\images\\iphone-15-pro-natural-titanium-pure.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "images/iphone-15-pro-natural-titanium-pure.png",
       "AssetKind": "All",
@@ -1343,10 +1351,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iphone-15-pro-natural-titanium-pure.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\iphone-15-pro-white-titanium-pure.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\images\\iphone-15-pro-white-titanium-pure.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "images/iphone-15-pro-white-titanium-pure.png",
       "AssetKind": "All",
@@ -1360,6 +1368,7 @@
       "OriginalItemSpec": "wwwroot\\images\\iphone-15-pro-white-titanium-pure.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\images\\nen1.jpg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
@@ -1616,9 +1625,12 @@
     },
     {
       "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\js\\site.js",
+=======
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\js\\site.js",
+>>>>>>> adcategory
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1632,10 +1644,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1649,10 +1661,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1666,10 +1678,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1683,10 +1695,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1700,10 +1712,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1717,10 +1729,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1734,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1751,10 +1763,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1768,10 +1780,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1785,10 +1797,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1802,10 +1814,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1819,10 +1831,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1836,10 +1848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1853,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1870,10 +1882,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1887,10 +1899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1904,10 +1916,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1921,10 +1933,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1938,10 +1950,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1955,10 +1967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1972,10 +1984,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1989,10 +2001,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2006,10 +2018,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2023,10 +2035,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2040,10 +2052,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2057,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2074,10 +2086,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2091,10 +2103,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2108,10 +2120,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2125,10 +2137,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2142,10 +2154,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2159,10 +2171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2176,10 +2188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2193,10 +2205,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2210,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2227,10 +2239,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2244,10 +2256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2261,10 +2273,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2278,10 +2290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2295,10 +2307,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2312,10 +2324,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2329,10 +2341,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2346,10 +2358,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2363,10 +2375,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2380,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2397,10 +2409,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2414,10 +2426,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2431,10 +2443,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2448,10 +2460,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2465,10 +2477,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2482,10 +2494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2499,10 +2511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2516,10 +2528,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2533,10 +2545,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2550,10 +2562,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2567,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2584,10 +2596,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2601,10 +2613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap.css",
       "AssetKind": "All",
@@ -2618,10 +2630,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2635,10 +2647,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2652,10 +2664,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2669,10 +2681,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap-grid.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2686,10 +2698,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap-grid.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2703,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap-grid.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2720,10 +2732,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap-grid.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2737,10 +2749,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap-reboot.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2754,10 +2766,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap-reboot.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2771,10 +2783,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap-reboot.min.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2788,10 +2800,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2805,10 +2817,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\cart.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\cart.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/cart.css",
       "AssetKind": "All",
@@ -2822,10 +2834,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\cart.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\category.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\category.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/category.css",
       "AssetKind": "All",
@@ -2839,10 +2851,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\category.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\home.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\home.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/home.css",
       "AssetKind": "All",
@@ -2856,10 +2868,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\home.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\product.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\product.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/product.css",
       "AssetKind": "All",
@@ -2873,10 +2885,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\product.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\search.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\search.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/search.css",
       "AssetKind": "All",
@@ -2890,10 +2902,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\search.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\css\\success.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\css\\success.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/css/success.css",
       "AssetKind": "All",
@@ -2907,10 +2919,10 @@
       "OriginalItemSpec": "wwwroot\\site\\css\\success.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\font\\AquireBold.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\font\\AquireBold.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/font/AquireBold.woff",
       "AssetKind": "All",
@@ -2924,10 +2936,10 @@
       "OriginalItemSpec": "wwwroot\\site\\font\\AquireBold.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\font\\AquireBold.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\font\\AquireBold.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/font/AquireBold.woff2",
       "AssetKind": "All",
@@ -2941,10 +2953,10 @@
       "OriginalItemSpec": "wwwroot\\site\\font\\AquireBold.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\font\\AquireLight.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\font\\AquireLight.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/font/AquireLight.woff",
       "AssetKind": "All",
@@ -2958,10 +2970,10 @@
       "OriginalItemSpec": "wwwroot\\site\\font\\AquireLight.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\font\\AquireLight.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\font\\AquireLight.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/font/AquireLight.woff2",
       "AssetKind": "All",
@@ -2975,10 +2987,10 @@
       "OriginalItemSpec": "wwwroot\\site\\font\\AquireLight.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\font\\AquireRegular.woff",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\font\\AquireRegular.woff",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/font/AquireRegular.woff",
       "AssetKind": "All",
@@ -2992,10 +3004,10 @@
       "OriginalItemSpec": "wwwroot\\site\\font\\AquireRegular.woff"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\font\\AquireRegular.woff2",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\font\\AquireRegular.woff2",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/font/AquireRegular.woff2",
       "AssetKind": "All",
@@ -3009,10 +3021,10 @@
       "OriginalItemSpec": "wwwroot\\site\\font\\AquireRegular.woff2"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\font\\demo.html",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\font\\demo.html",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/font/demo.html",
       "AssetKind": "All",
@@ -3026,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\site\\font\\demo.html"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\font\\stylesheet.css",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\font\\stylesheet.css",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/font/stylesheet.css",
       "AssetKind": "All",
@@ -3043,10 +3055,10 @@
       "OriginalItemSpec": "wwwroot\\site\\font\\stylesheet.css"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\banner-1.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\banner-1.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/banner-1.png",
       "AssetKind": "All",
@@ -3060,10 +3072,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\banner-1.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\banner-2.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\banner-2.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/banner-2.png",
       "AssetKind": "All",
@@ -3077,10 +3089,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\banner-2.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\banner-3.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\banner-3.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/banner-3.png",
       "AssetKind": "All",
@@ -3094,10 +3106,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\banner-3.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\banner-4.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\banner-4.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/banner-4.png",
       "AssetKind": "All",
@@ -3111,10 +3123,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\banner-4.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\banner-5.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\banner-5.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/banner-5.png",
       "AssetKind": "All",
@@ -3128,10 +3140,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\banner-5.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\banner-6.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\banner-6.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/banner-6.png",
       "AssetKind": "All",
@@ -3145,10 +3157,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\banner-6.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\img-ship.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\img-ship.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/img-ship.png",
       "AssetKind": "All",
@@ -3162,10 +3174,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\img-ship.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\logo.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\logo.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/logo.png",
       "AssetKind": "All",
@@ -3179,10 +3191,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\logo.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\logo.psd",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\logo.psd",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/logo.psd",
       "AssetKind": "All",
@@ -3196,10 +3208,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\logo.psd"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\logo-footer.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\logo-footer.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/logo-footer.png",
       "AssetKind": "All",
@@ -3213,10 +3225,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\logo-footer.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\logo-footer.psd",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\logo-footer.psd",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/logo-footer.psd",
       "AssetKind": "All",
@@ -3230,10 +3242,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\logo-footer.psd"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\mua-oppo-trung-vision.jpg",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\mua-oppo-trung-vision.jpg",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/mua-oppo-trung-vision.jpg",
       "AssetKind": "All",
@@ -3247,10 +3259,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\mua-oppo-trung-vision.jpg"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-1.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-1.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-1.png",
       "AssetKind": "All",
@@ -3264,10 +3276,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-1.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-10.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-10.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-10.png",
       "AssetKind": "All",
@@ -3281,10 +3293,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-10.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-11.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-11.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-11.png",
       "AssetKind": "All",
@@ -3298,10 +3310,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-11.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-12.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-12.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-12.png",
       "AssetKind": "All",
@@ -3315,10 +3327,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-12.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-2.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-2.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-2.png",
       "AssetKind": "All",
@@ -3332,10 +3344,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-2.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-3.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-3.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-3.png",
       "AssetKind": "All",
@@ -3349,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-3.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-4.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-4.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-4.png",
       "AssetKind": "All",
@@ -3366,10 +3378,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-4.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-5.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-5.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-5.png",
       "AssetKind": "All",
@@ -3383,10 +3395,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-5.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-6.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-6.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-6.png",
       "AssetKind": "All",
@@ -3400,10 +3412,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-6.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-7.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-7.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-7.png",
       "AssetKind": "All",
@@ -3417,10 +3429,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-7.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-8.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-8.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-8.png",
       "AssetKind": "All",
@@ -3434,10 +3446,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-8.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\product-9.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\product-9.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/product-9.png",
       "AssetKind": "All",
@@ -3451,10 +3463,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\product-9.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\slide-1.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\slide-1.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/slide-1.png",
       "AssetKind": "All",
@@ -3468,10 +3480,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\slide-1.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\slide-2.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\slide-2.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/slide-2.png",
       "AssetKind": "All",
@@ -3485,10 +3497,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\slide-2.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\slide-3.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\slide-3.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/slide-3.png",
       "AssetKind": "All",
@@ -3502,10 +3514,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\slide-3.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\slide-4.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\slide-4.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/slide-4.png",
       "AssetKind": "All",
@@ -3519,10 +3531,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\slide-4.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\slide-5.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\slide-5.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/slide-5.png",
       "AssetKind": "All",
@@ -3536,10 +3548,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\slide-5.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\images\\slide-6.png",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\images\\slide-6.png",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/images/slide-6.png",
       "AssetKind": "All",
@@ -3553,10 +3565,10 @@
       "OriginalItemSpec": "wwwroot\\site\\images\\slide-6.png"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\ajax-cart.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\ajax-cart.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/ajax-cart.js",
       "AssetKind": "All",
@@ -3570,10 +3582,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\ajax-cart.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\bootstrap.bundle.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3587,10 +3599,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\bootstrap.bundle.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3604,10 +3616,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\bootstrap.bundle.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3621,10 +3633,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3638,10 +3650,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\bootstrap.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/bootstrap.js",
       "AssetKind": "All",
@@ -3655,10 +3667,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\bootstrap.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3672,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\bootstrap.min.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3689,10 +3701,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\bootstrap.min.js.map",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3706,10 +3718,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\confirm-delete.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\confirm-delete.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/confirm-delete.js",
       "AssetKind": "All",
@@ -3723,10 +3735,10 @@
       "OriginalItemSpec": "wwwroot\\site\\js\\confirm-delete.js"
     },
     {
-      "Identity": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\site\\js\\jquery-3.3.1.js",
+      "Identity": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\site\\js\\jquery-3.3.1.js",
       "SourceId": "vphone",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\lap_trinh_web\\vmobile\\vmobile\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TLam\\source\\repos\\nguye2ntrieu2210\\vmobile\\wwwroot\\",
       "BasePath": "_content/vphone",
       "RelativePath": "site/js/jquery-3.3.1.js",
       "AssetKind": "All",
