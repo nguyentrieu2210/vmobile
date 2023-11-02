@@ -6,6 +6,7 @@ using X.PagedList;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Nop.Core.Domain.Seo;
 using vphone.Helper;
+using vphone.Models.Authentication;
 
 namespace vphone.Controllers.Admin
 {
@@ -17,15 +18,18 @@ namespace vphone.Controllers.Admin
             this.db = db;   
         }
 		[Route("/admin/product/{page?}")]
-		public IActionResult Index(int? page)
+        [Authentication]
+
+        public IActionResult Index(int? page)
 		{
             int pageSize = 5;
             int pageNumber = (page ?? 1);
-            var products = db.Products.Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
+            var products = db.Products.OrderByDescending(p => p.CreatedAt).Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
 			return View("~/Views/Admin/Product/listproduct.cshtml", products.ToPagedList(pageNumber, pageSize));
 		}
 
         [Route("/admin/product/add")]
+        [Authentication]
         public IActionResult Add()
         {
             ViewBag.categories = db.Categories.ToList();
@@ -34,6 +38,7 @@ namespace vphone.Controllers.Admin
 
         [HttpPost]
         [Route("/admin/product/add")]
+        [Authentication]
         public IActionResult Store(Product product, IFormFile Image)
         {   
                 if (Image != null)
@@ -52,10 +57,14 @@ namespace vphone.Controllers.Admin
                 db.Products.Add(product);
                 db.SaveChanges();
                 ViewBag.alert = "Đã thêm sản phẩm thành công!";
-                return Redirect("/admin/product/{pages)");
+                int pageSize = 5;
+                int pageNumber = 1;
+                var products = db.Products.OrderByDescending(p => p.CreatedAt).Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
+                return View("~/Views/Admin/Product/listproduct.cshtml", products.ToPagedList(pageNumber, pageSize));
         }
 
         [Route("/admin/product/edit/{slug}/{id}")]
+        [Authentication]
         public IActionResult Edit(int id)
         {
             
@@ -71,6 +80,7 @@ namespace vphone.Controllers.Admin
 
         [HttpPost]
         [Route("/admin/product/update/{slug}/{id}")]
+        [Authentication]
         public IActionResult Update(Product product, IFormFile Image, int id)
         {
             if (id != product.Id)
@@ -79,21 +89,36 @@ namespace vphone.Controllers.Admin
             }
                 try
                 {
-                Console.WriteLine(product.Image);
-                if (Image != null)
-                {
-                    string fileName = Image.FileName;
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images", fileName);
-                    var stream = new FileStream(path, FileMode.Create);
-                    Image.CopyToAsync(stream);
-                    product.Image = fileName;
-                }
-                product.Id = id;
-                var email = HttpContext.Session.Get<string>("Email");
-                product.UserId = db.Users.Where(u => u.Email == email).FirstOrDefault().Id;
-                Slug slugGenerator = new Slug();
-                product.Slug = slugGenerator.GetSlug(product.Name);
-                db.Update(product);
+                    if (Image != null)
+                    {
+                        string fileName = Image.FileName;
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images", fileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            Image.CopyToAsync(stream);
+                        }    
+                        product.Image = fileName;
+                    }
+                    else
+                    {
+                        var existingProduct = db.Products.Find(id);
+                        if(existingProduct != null)
+                        {
+                            product.Image = existingProduct.Image;
+                        }
+                        // Ngừng theo dõi thực thể hiện tại (nếu có)
+                        db.Entry(existingProduct).State = EntityState.Detached;
+
+                        // Attach thực thể mới từ cơ sở dữ liệu
+                        db.Attach(product);
+                        db.Entry(product).State = EntityState.Modified;
+                    }
+                    product.Id = id;
+                    var email = HttpContext.Session.Get<string>("Email");
+                    product.UserId = db.Users.Where(u => u.Email == email).FirstOrDefault().Id;
+                    Slug slugGenerator = new Slug();
+                    product.Slug = slugGenerator.GetSlug(product.Name);
+                    db.Update(product);
                     db.SaveChanges();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -108,10 +133,14 @@ namespace vphone.Controllers.Admin
                     }
                 }
             ViewBag.alert = "Đã cập nhật sản phẩm thành công!";
-            return Redirect("/admin/product/{pages)");
+            int pageSize = 5;
+            int pageNumber = 1;
+            var products = db.Products.OrderByDescending(p => p.CreatedAt).Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
+            return View("~/Views/Admin/Product/listproduct.cshtml", products.ToPagedList(pageNumber, pageSize));
         }
 
         [Route("/admin/product/delete/{id}")]
+        [Authentication]
         public IActionResult Delete(int id)
         {
             var item = db.Products.FirstOrDefault(o => o.Id == id);
@@ -120,7 +149,7 @@ namespace vphone.Controllers.Admin
             ViewBag.alert = "Sản phẩm đã được xóa!";
             int pageSize = 5;
             int pageNumber = 1;
-            var products = db.Products.Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
+            var products = db.Products.OrderByDescending(p => p.CreatedAt).Where(p => p.DeletedAt == false).Include(m => m.Cat).ToList();
             return View("~/Views/Admin/Product/listproduct.cshtml", products.ToPagedList(pageNumber, pageSize));
         }
     }

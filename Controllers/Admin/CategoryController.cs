@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using vphone.Models;
+using vphone.Models.Authentication;
 using X.PagedList;
 
 namespace vphone.Controllers.Admin
@@ -16,7 +17,8 @@ namespace vphone.Controllers.Admin
 		}
 
 		[Route("/admin/category/{page?}")]
-		public IActionResult Index(int? page)
+        [Authentication]
+        public IActionResult Index(int? page)
 		{
 			if (page == null) page = 1;
 			int pageSize = 5;
@@ -27,13 +29,15 @@ namespace vphone.Controllers.Admin
 			return View("~/Views/Admin/Category/category.cshtml", categories.ToPagedList(pageNumber, pageSize));
 		}
 		[Route("/admin/category/add")]
-		public IActionResult Add()
+        [Authentication]
+        public IActionResult Add()
 		{
 			return View("~/Views/Admin/Category/addcategory.cshtml");
 		}
 		[HttpPost("/admin/category/add")]
 		[ValidateAntiForgeryToken]
-		public IActionResult Add([Bind("Title", "Description")] Category category)
+        [Authentication]
+        public IActionResult Add([Bind("Title", "Description")] Category category)
 		{
 
 			if (CategoryExist(category.Title) == false)
@@ -56,7 +60,8 @@ namespace vphone.Controllers.Admin
 		}
 
 		[Route("/admin/category/edit/{id}")]
-		public IActionResult Edit(int id)
+        [Authentication]
+        public IActionResult Edit(int id)
 		{
 			if (db.Categories == null)
 			{
@@ -72,7 +77,8 @@ namespace vphone.Controllers.Admin
 		}
 		[HttpPost("/admin/category/edit/{id}")]
 		[ValidateAntiForgeryToken]
-		public IActionResult Edit(int id, [Bind("Id", "Title", "Description", "UserId")] Category category)
+        [Authentication]
+        public IActionResult Edit(int id, [Bind("Id", "Title", "Description", "UserId")] Category category)
 		{
 			if (id != category.Id)
 			{
@@ -98,7 +104,8 @@ namespace vphone.Controllers.Admin
 			return View("~/Views/Admin/Category/editcategory.cshtml", category);
 		}
 		[Route("/admin/category/delete/{id}")]
-		public IActionResult Delete(int id)
+        [Authentication]
+        public IActionResult Delete(int id)
 		{
 			if (db.Categories == null)
 			{
@@ -118,7 +125,8 @@ namespace vphone.Controllers.Admin
 		}
 		[HttpPost("/admin/category/delete/{id}")]
 		[ValidateAntiForgeryToken]
-		public IActionResult DeleteComfirmed(int id)
+        [Authentication]
+        public IActionResult DeleteComfirmed(int id)
 		{
 			if (db.Categories == null)
 			{

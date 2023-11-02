@@ -1,4 +1,5 @@
 ﻿
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "Cập nhật sản phẩm";
     Layout = "~/Views/Admin/Shared/AdminLayout.cshtml";
@@ -34,10 +35,8 @@
                                 <div class="form-group">
                                     <label>Danh mục</label>
                                     <select asp-for="CatId" class="form-control">
-                                        @foreach (var item in ViewBag.categories)
-                                        {
-                                            var isSelected = (item.Id == ViewBag.product.CatId) ? "selected" : "";
-                                            <option value="@item.Id" isSelected>@item.Title</option>
+                                        @foreach(var item in ViewBag.categories) {
+                                            <option value="@item.Id">@item.Title</option>
                                         }
                                     </select>
                                 </div>
@@ -63,8 +62,8 @@
                                         <div class="form-group">
                                             <label>Trạng thái</label>
                                             <select asp-for="IsStock" class="form-control">
-                                                <option selected="@(ViewBag.product.IsStock == true ? "selected" : "")" value="True">Còn hàng</option>
-                                                <option selected="@(ViewBag.product.IsStock == false ? "selected" : "")" value="False">Hết hàng</option>
+                                                <option value="True">Còn hàng</option>
+                                                <option value="False">Hết hàng</option>
                                             </select>
                                         </div>
                                     </div>
@@ -132,8 +131,8 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Thông tin mô tả</label>
-                          <textarea required asp-for="Description" id="editor" style="width: 100%; height: 100px;">@ViewBag.product.Description</textarea>
-
+                                    <input required asp-for="Description" value="@ViewBag.product.Description" type="text" class="form-control">
+                                    <!--<textarea required asp-for="Description" id="editor" style="width: 100%; height: 100px;">@ViewBag.product.Description</textarea>-->
                                 </div>
                                 <button class="btn btn-success" name="update-product" type="submit">Cập nhật sản phẩm</button>
                                 <button class="btn btn-danger" type="reset">Huỷ bỏ</button>
