@@ -5,161 +5,160 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = vphone
 build_property.RootNamespace = vphone
-build_property.ProjectDir = C:\Users\TLam\source\repos\nguye2ntrieu2210\vmobile\
+build_property.ProjectDir = F:\lap_trinh_web\vmobile\test\vmobile\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\TLam\source\repos\nguye2ntrieu2210\vmobile
+build_property.MSBuildProjectDirectory = F:\lap_trinh_web\vmobile\test\vmobile
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Auth/login.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Auth/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXV0aFxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Category/addcategory.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Category/addcategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlcYWRkY2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Category/category.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Category/category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlcY2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Category/deletecategory.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Category/deletecategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlcZGVsZXRlY2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Category/editcategory.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Category/editcategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlcZWRpdGNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Dashboard/Index.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Order/detailorder.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Order/detailorder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJcZGV0YWlsb3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Order/order.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Order/order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJcb3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Order/processed.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Order/processed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJccHJvY2Vzc2VkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Product/addproduct.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Product/addproduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdFxhZGRwcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Product/editproduct.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Product/editproduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdFxlZGl0cHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Product/listproduct.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Product/listproduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdFxsaXN0cHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Shared/AdminLayout.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Shared/AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Shared/Header.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Shared/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hhcmVkXEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/Shared/Sidebar.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/Shared/Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hhcmVkXFNpZGViYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/User/adduser.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/User/adduser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlclxhZGR1c2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/User/edituser.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/User/edituser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlclxlZGl0dXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Admin/User/listuser.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Admin/User/listuser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlclxsaXN0dXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Shared/Error.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Shared/_Layout.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Cart/CartItem.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Cart/CartItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxDYXJ0XENhcnRJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Cart/Index.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Category/Index.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxDYXRlZ29yeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Home/Index.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxIb21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/ProductDetail/Index.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/ProductDetail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxQcm9kdWN0RGV0YWlsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Search/Index.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Search/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTZWFyY2hcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Shared/Components/CategoryMenu/Default.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Shared/Components/CategoryMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTaGFyZWRcQ29tcG9uZW50c1xDYXRlZ29yeU1lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Shared/Footer.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTaGFyZWRcRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Shared/Header.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Shared/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTaGFyZWRcSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Shared/Menu.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Shared/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTaGFyZWRcTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Shared/SideBar.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Shared/SideBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTaGFyZWRcU2lkZUJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Shared/SiteLayout.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Shared/SiteLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTaGFyZWRcU2l0ZUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Shared/Slider.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Shared/Slider.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTaGFyZWRcU2xpZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/Site/Success/Index.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/Site/Success/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTdWNjZXNzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/_ViewImports.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TLam/source/repos/nguye2ntrieu2210/vmobile/Views/_ViewStart.cshtml]
+[F:/lap_trinh_web/vmobile/test/vmobile/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

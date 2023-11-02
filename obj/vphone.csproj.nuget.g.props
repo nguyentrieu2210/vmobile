@@ -5,23 +5,23 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\TLam\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ADMIN\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\TLam\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\ADMIN\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.14\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.14\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\6.0.14\build\net6.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\6.0.14\build\net6.0\Microsoft.EntityFrameworkCore.Design.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\TLam\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
-    <PkgWebGrease Condition=" '$(PkgWebGrease)' == '' ">C:\Users\TLam\.nuget\packages\webgrease\1.6.0</PkgWebGrease>
-    <PkgMicrosoft_SqlServer_Compact Condition=" '$(PkgMicrosoft_SqlServer_Compact)' == '' ">C:\Users\TLam\.nuget\packages\microsoft.sqlserver.compact\4.0.8876.1</PkgMicrosoft_SqlServer_Compact>
-    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\TLam\.nuget\packages\entityframework\6.1.3</PkgEntityFramework>
-    <PkgEntityFramework_SqlServerCompact Condition=" '$(PkgEntityFramework_SqlServerCompact)' == '' ">C:\Users\TLam\.nuget\packages\entityframework.sqlservercompact\6.1.3</PkgEntityFramework_SqlServerCompact>
-    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\TLam\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.5</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\ADMIN\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
+    <PkgWebGrease Condition=" '$(PkgWebGrease)' == '' ">C:\Users\ADMIN\.nuget\packages\webgrease\1.6.0</PkgWebGrease>
+    <PkgMicrosoft_SqlServer_Compact Condition=" '$(PkgMicrosoft_SqlServer_Compact)' == '' ">C:\Users\ADMIN\.nuget\packages\microsoft.sqlserver.compact\4.0.8876.1</PkgMicrosoft_SqlServer_Compact>
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\ADMIN\.nuget\packages\entityframework\6.1.3</PkgEntityFramework>
+    <PkgEntityFramework_SqlServerCompact Condition=" '$(PkgEntityFramework_SqlServerCompact)' == '' ">C:\Users\ADMIN\.nuget\packages\entityframework.sqlservercompact\6.1.3</PkgEntityFramework_SqlServerCompact>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\ADMIN\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.5</PkgMicrosoft_EntityFrameworkCore_Tools>
   </PropertyGroup>
 </Project>

@@ -762,3 +762,17 @@ C:\Users\TLam\source\repos\nguye2ntrieu2210\vmobile\obj\Debug\net6.0\refint\vpho
 C:\Users\TLam\source\repos\nguye2ntrieu2210\vmobile\obj\Debug\net6.0\vphone.pdb
 C:\Users\TLam\source\repos\nguye2ntrieu2210\vmobile\obj\Debug\net6.0\vphone.genruntimeconfig.cache
 C:\Users\TLam\source\repos\nguye2ntrieu2210\vmobile\obj\Debug\net6.0\ref\vphone.dll
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.csproj.AssemblyReference.cache
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.csproj.SuggestedBindingRedirects.cache
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.dll.config
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.GeneratedMSBuildEditorConfig.editorconfig
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.AssemblyInfoInputs.cache
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.AssemblyInfo.cs
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.csproj.CoreCompileInputs.cache
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.MvcApplicationPartsAssemblyInfo.cs
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.MvcApplicationPartsAssemblyInfo.cache
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.RazorAssemblyInfo.cache
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.RazorAssemblyInfo.cs
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.dll
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\refint\vphone.dll
+F:\lap_trinh_web\vmobile\test\vmobile\obj\Debug\net6.0\vphone.pdb
